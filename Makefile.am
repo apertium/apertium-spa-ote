@@ -84,7 +84,7 @@ $(PREFIX2).automorf.bin: .deps/$(LANG2).automorf.hfst .deps/$(PREFIX2).autobil.p
 	hfst-fst2txt -i .deps/$(PREFIX2).automorf.trimmed -o .deps/$(PREFIX2).automorf.trimmed.att
 	lt-comp lr .deps/$(PREFIX2).automorf.trimmed.att $@
 
-$(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.trimmed
+$(PREFIX2).automorf.hfst: .deps/$(LANG2).automorf.hfst
 	hfst-fst2fst -O $< -o $@
 
 # -------------------
