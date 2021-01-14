@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- spa → ote -->
+
+  <mode name="spa-ote" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="spa-ote.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="spa-ote.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-ote.prob"/>
+      </program>
+      <program name="lsx-proc">
+        <file name="spa-ote.autoseq.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-ote.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-ote.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="spa-ote.rtx.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="revautoseq">
+        <file name="spa-ote.revautoseq.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="spa-ote.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-ote.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- ote → spa -->
+
+  <mode name="ote-spa" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="ote-spa.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="ote-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="ote-spa.prob"/>
+      </program>
+
+      <program name="lsx-proc">
+        <file name="ote-spa.autoseq.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="ote-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="ote-spa.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="ote-spa.rtx.bin"/>
+      </program>
+      <program name="lsx-proc" debug-suff="revautoseq">
+        <file name="ote-spa.revautoseq.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="ote-spa.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="ote-spa.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
