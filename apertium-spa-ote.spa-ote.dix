@@ -38,6 +38,7 @@
     <sdef n="res"             c="Reciprocal pronoun"/>
 
     <sdef n="det"             c="Determiner"/>
+    <sdef n="predet"          c="Determiner"/>
     <sdef n="pos"             c="Possessive"/>
 
     <sdef n="p1"              c="1st person"/>
@@ -137,6 +138,10 @@
 		<e><p><l>gratitud<s n="n"/><s n="m"/></l><r>njamädi<s n="n"/></r></p></e>
 		<e><p><l>lindero<s n="n"/><s n="m"/></l><r>hyodi<s n="n"/></r></p></e>
 		<e><p><l>límite<s n="n"/><s n="m"/></l><r>hyodi<s n="n"/></r></p></e>
+		<e><p><l>palabra<s n="n"/><s n="f"/></l><r>noya<s n="n"/></r></p></e>
+		<e><p><l>hombre<s n="n"/><s n="m"/></l><r>ʼño̱ho̱<s n="n"/></r></p></e>
+		<e><p><l>tiempo<s n="n"/><s n="m"/></l><r>mapa<s n="n"/></r></p></e>
+		<e><p><l>estrella<s n="n"/><s n="f"/></l><r>tso̱<s n="n"/></r></p></e>
 
 		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
 		<e><p><l>pequeño<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
@@ -157,6 +162,8 @@
 		<e><p><l>sin<s n="pr"/></l><r>nsinke<s n="pr"/></r></p></e>
 
 		<e><p><l>Yucatán<s n="np"/><s n="loc"/></l><r>Yucatán<s n="np"/><s n="top"/></r></p></e>
+		<e><p><l>México<s n="np"/><s n="loc"/></l><r>México<s n="np"/><s n="top"/></r></p></e>
+		<e><p><l>México<s n="np"/><s n="loc"/></l><r>Mʼonda<s n="np"/><s n="top"/></r></p></e>
 		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 		<e><p><l>Cuauhtémoc<s n="np"/><s n="ant"/></l><r>Cuauhtémoc<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 		<e><p><l>Motecuhzoma<s n="np"/><s n="ant"/></l><r>Tsʼe̱yʼe̱hmu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -226,6 +233,10 @@
       <e><p><l>negar<s n="vblex"/></l><r>ko̱nti<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>prohibir<s n="vblex"/></l><r>tsunti<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>acabarse<s n="vblex"/></l><r>thege<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>alcanzar<s n="vblex"/></l><r>tsu̱di<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>encontrar<s n="vblex"/></l><r>tsu̱di<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>flechar<s n="vblex"/></l><r>tsu̱di<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>replegarse<s n="vblex"/></l><r>bʼe̱nga<s n="v"/><s n="iv"/></r></p></e>
 
       <e><p><l>ir<s n="vblex"/></l><r>aux<s n="aux"/><s n="fut"/></r></p></e>
       
@@ -240,6 +251,10 @@
 		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼra<b/>ya<s n="det"/><s n="ind"/></r></p></e>
 		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼna<b/>ya<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>aquel<s n="det"/><s n="dem"/></l><r>nuni<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>este<s n="det"/><s n="dem"/></l><r>nuya<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>este<s n="det"/><s n="dem"/></l><r>nunä<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>todo<s n="predet"/></l><r>gatho<s n="det"/><s n="qnt"/></r></p></e>
+      <e><p><l>todo<s n="predet"/></l><r>gaʼtho<s n="det"/><s n="qnt"/></r></p></e>
 		<e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/></l><r>toʼo<s n="prn"/><s n="itg"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
