@@ -13,6 +13,7 @@
     <sdef n="iv"              c="Intransitive Verb"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
+    <sdef n="aux"             c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
@@ -26,6 +27,7 @@
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
+    <sdef n="loc"             c="Location (Toponym)"/>
     <sdef n="ant"             c="Anthroponym"/>
     <sdef n="cog"             c="Cognomen"/>
     <sdef n="org"             c="Organisation"/>
@@ -46,6 +48,7 @@
     <sdef n="ut"              c="Utrum"/>
     <sdef n="f"               c="Feminine"/>
     <sdef n="m"               c="Masculine"/>
+    <sdef n="mf"              c="Masculine or feminine"/>
     <sdef n="un"              c="No gender"/>
 
     <sdef n="sg"              c="Singular"/>
@@ -83,6 +86,8 @@
     <sdef n="ord"             c="Ordinal"/>
     <sdef n="acr"             c="Acronym"/>
     <sdef n="unc"             c="Uncountable"/>
+    
+	 <sdef n="fut"             c="Future"/>
 
     <sdef n="num"             c="Numeral"/>
     <sdef n="sent"            c="Sentence end"/>
@@ -103,6 +108,99 @@
       <e><p><l>mañana<s n="adv"/></l><r>xudi<s n="n"/></r></p></e>
       <e><p><l>trabajar<s n="vblex"/></l><r>mpe̱fi<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>cambiar<s n="vblex"/></l><r>mpadi<s n="v"/><s n="iv"/></r></p></e>
+		<e><p><l>introducción<s n="n"/><s n="f"/></l><r>nthintʼantʼofo<s n="n"/></r></p></e>
+		<e><p><l>tierra<s n="n"/><s n="f"/></l><r>hai<s n="n"/></r></p></e>
+		<e><p><l>entraña<s n="n"/><s n="f"/></l><r>xefo<s n="n"/></r></p></e>
+		<e><p><l>intestino<s n="n"/><s n="m"/></l><r>xefo<s n="n"/></r></p></e>
+		<e><p><l>tripa<s n="n"/><s n="f"/></l><r>xefo<s n="n"/></r></p></e>
+		<e><p><l>muslo<s n="n"/><s n="m"/></l><r>xinthe<s n="n"/></r></p></e>
+		<e><p><l>espalda<s n="n"/><s n="f"/></l><r>xu̱tha<s n="n"/></r></p></e>
+		<e><p><l>fuerza<s n="n"/><s n="f"/></l><r>tsʼe̱di<s n="n"/></r></p></e>
+		<e><p><l>salud<s n="n"/><s n="f"/></l><r>nzaki<s n="n"/></r></p></e>
+		<e><p><l>alimiento<s n="n"/><s n="m"/></l><r>nzaki<s n="n"/></r></p></e>
+		<e><p><l>gente<s n="n"/><s n="f"/></l><r>jäʼi<s n="n"/></r></p></e>
+		<e><p><l>pueblo<s n="n"/><s n="m"/></l><r>hnini<s n="n"/></r></p></e>
+		<e><p><l>ciudad<s n="n"/><s n="f"/></l><r>hnini<s n="n"/></r></p></e>
+		<e><p><l>español<s n="n"/><s n="m"/></l><r>ñämfo̱<s n="n"/></r></p></e>
+
+		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
+
+		<e><p><l>Yucatán<s n="np"/><s n="loc"/></l><r>Yucatán<s n="np"/><s n="top"/></r></p></e>
+		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/></r></p></e>
+
+		<e><p><l>saber<s n="vblex"/></l><r>pädi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>subir<s n="vblex"/></l><r>po̱tsʼe<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>lavar<s n="vblex"/></l><r>peni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>empezar<s n="vblex"/></l><r>fu̱di<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>quebrar<s n="vblex"/></l><r>tehmi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>quebrarse<s n="vblex"/></l><r>tehmi<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>pararse<s n="vblex"/></l><r>ʼbai<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>comprar<s n="vblex"/></l><r>tai<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>contestar<s n="vblex"/></l><r>thädi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>mordar<s n="vblex"/></l><r>tsa<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>molir<s n="vblex"/></l><r>ku̱ni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>sacar<s n="vblex"/></l><r>ju̱ki<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>terminar<s n="vblex"/></l><r>juadi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>oír<s n="vblex"/></l><r>o̱de<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>dormir<s n="vblex"/></l><r>ähä<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>buscar<s n="vblex"/></l><r>honi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>llevar<s n="vblex"/></l><r>hätsʼi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>molir<s n="vblex"/></l><r>thäʼti<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>reírse<s n="vblex"/></l><r>thede<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>descansar<s n="vblex"/></l><r>tsaya<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>apresurarse<s n="vblex"/></l><r>xo̱ni<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>brincar<s n="vblex"/></l><r>sagi<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>comer<s n="vblex"/></l><r>tsa<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>cortar<s n="vblex"/></l><r>tse̱käza<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>vender<s n="vblex"/></l><r>pahai<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>tomar<s n="vblex"/></l><r>tsithe<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>vencer<s n="vblex"/></l><r>täte<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>cosechar<s n="vblex"/></l><r>xofo<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>menear<s n="vblex"/></l><r>äni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>escoger<s n="vblex"/></l><r>huahni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>coser<s n="vblex"/></l><r>ʼue̱ti<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>cuidar<s n="vblex"/></l><r>su<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>matar<s n="vblex"/></l><r>ho<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>maldecir<s n="vblex"/></l><r>tsani<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>visitar<s n="vblex"/></l><r>tso̱ni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>lastimar<s n="vblex"/></l><r>u̱ni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>seguir<s n="vblex"/></l><r>te̱ni<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>echar<b/>fuera<s n="vblex"/></l><r>e̱ni<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>decir<s n="vblex"/></l><r>enä<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>dejar<s n="vblex"/></l><r>tsogi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>deber<s n="vblex"/></l><r>tu<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>comer<s n="vblex"/></l><r>tsi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>robar<s n="vblex"/></l><r>pe<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>dar<s n="vblex"/></l><r>ʼra<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>vender<s n="vblex"/></l><r>pa<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ganar<s n="vblex"/></l><r>tähä<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>pedir<b/>prestado<s n="vblex"/></l><r>mihi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>agarrar<s n="vblex"/></l><r>mihi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>tocar<s n="vblex"/></l><r>toca<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>vender<s n="vblex"/></l><r>pa<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>convenir<s n="vblex"/></l><r>epi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>decir<s n="vblex"/></l><r>xipi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>querer<s n="vblex"/></l><r>ne<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>desear<s n="vblex"/></l><r>ne<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>apetecer<s n="vblex"/></l><r>ne<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>encogerse<s n="vblex"/></l><r>nuni<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>faltar<s n="vblex"/></l><r>ʼbe̱pi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ordenar<s n="vblex"/></l><r>ʼbe̱pi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>mandar<s n="vblex"/></l><r>ʼbe̱pi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>incitar<s n="vblex"/></l><r>ʼbe̱pi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>instigar<s n="vblex"/></l><r>ʼbe̱pi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>decir<s n="vblex"/></l><r>mä<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>negar<s n="vblex"/></l><r>ko̱nti<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>prohibir<s n="vblex"/></l><r>tsunti<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>ir<s n="vblex"/></l><r>aux<s n="aux"/><s n="fut"/></r></p></e>
+      
+
+		<e><p><l>el<s n="det"/><s n="def"/></l><r>ra<s n="det"/><s n="def"/></r></p></e>
+		<e><p><l>el<s n="det"/><s n="def"/></l><r>ya<s n="det"/><s n="def"/></r></p></e>
+		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼna<b/>ra<s n="det"/><s n="ind"/></r></p></e>
+		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼra<b/>ya<s n="det"/><s n="ind"/></r></p></e>
+		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼna<b/>ya<s n="det"/><s n="ind"/></r></p></e>
+		<e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/></l><r>toʼo<s n="prn"/><s n="itg"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

@@ -10,6 +10,7 @@
 		<sdef n="vblex"/>
 		<sdef n="vbser"/>
 		<sdef n="det"/>
+		<sdef n="aux"/>
 	</sdefs>
 
 	<pardefs>
@@ -39,25 +40,14 @@
 
 	<section id="main" type="standard">
 
-  <!--
-      This replaces
-      ^take<vblex>...$ [noun phrase] ^out<adv>$
-      with
-      ^take# out<vblex>...$ [noun phrase]
-  -->
-
-		<e lm="take out" c="sacar">
+		<e lm="aux" c="aux normalisation">
 			<p>
-				<l>take<s n="vblex"/></l>
-				<r>take<b/>out<s n="vblex"/></r>
+				<l><w/></l>
+				<r>aux</r>
 			</p>
-			<i><t/><j/></i>
-			<par n="SN"/>
-			<p>
-				<l>out<s n="adv"/><j/></l>
-				<r></r>
-			</p>
+			<i><s n="aux"/><t/><j/></i>
 		</e>
+
 	</section>
 </dictionary>
 

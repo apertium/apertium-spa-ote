@@ -61,6 +61,7 @@
       <program name="apertium-tagger -g -u2 $2">
         <file name="ote-spa.prob"/>
       </program>
+		<program name="sed 's/+/\$ \^/g'"/>
 
       <program name="lsx-proc">
         <file name="ote-spa.autoseq.bin"/>
