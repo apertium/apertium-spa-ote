@@ -21,6 +21,7 @@ TARGETS_COMMON =		\
 	$(PREFIX1).revautoseq.bin	\
 	$(PREFIX1).rtx.bin	\
 	$(PREFIX2).automorf.bin	\
+	$(PREFIX2).automorf.hfst	\
 	$(PREFIX2).prob		\
 	$(PREFIX2).rlx.bin	\
 	$(PREFIX2).autobil.bin	\
@@ -82,6 +83,9 @@ $(PREFIX2).automorf.bin: .deps/$(LANG2).automorf.hfst .deps/$(PREFIX2).autobil.p
 	hfst-compose-intersect -1 .deps/$(LANG2).automorf.hfst -2 .deps/$(PREFIX2).autobil.prefixes -o .deps/$(PREFIX2).automorf.trimmed
 	hfst-fst2txt -i .deps/$(PREFIX2).automorf.trimmed -o .deps/$(PREFIX2).automorf.trimmed.att
 	lt-comp lr .deps/$(PREFIX2).automorf.trimmed.att $@
+
+$(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.trimmed
+	hfst-fst2fst -O $< -o $@
 
 # -------------------
 # Mezquital Otomi generation:

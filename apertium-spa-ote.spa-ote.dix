@@ -8,6 +8,9 @@
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
     <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="v"               c="Verb, lexical"/>
+    <sdef n="tv"              c="Transitive Verb"/>
+    <sdef n="iv"              c="Intransitive Verb"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
@@ -97,7 +100,9 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mañana<s n="adv"/></l><r>xudi<s n="n"/></r></p></e>
+      <e><p><l>trabajar<s n="vblex"/></l><r>mpe̱fi<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>cambiar<s n="vblex"/></l><r>mpadi<s n="v"/><s n="iv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
