@@ -4,7 +4,7 @@
 
 number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
-det_type = def ind dem itg;
+det_type = def ind dem itg pos ;
 tense = pres past fut ifi pri fti;
 
 !!!!!!!!!!!!!!!
@@ -15,8 +15,12 @@ n: _.gender.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.gender.number;
+det_pos: _.det_type.<mf>.number;
 
-NP: _.number;
+NP: _.gender.number;
+
+nP: _.gender.number;
+adjP: _.gender.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -30,6 +34,8 @@ tense > tense : ifi past, pri pres, fti fut;
 
 det: (if (1.det_type = def or 1.det_type = ind)
          1(det_def)
+      else-if (1.det_type = pos)
+         1(det_pos)
       else
          1(det_default));
 
@@ -37,9 +43,16 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _1 1 } |
-      det %n { 1[gender=2.gender, number=2.number] _ 2 } ;
+nP -> n.$number adj { 2[gender=1.gender, number=1.number] _1 1 } |
+      det %n { 1[gender=2.gender, number=2.number] _ 2 } |
+      %n { 1 } ;
 
+NP -> nP nP { 1 _ de@pr _ 2 } |
+      adjP nP { 2 _ 1[gender=2.gender, number=2.number] } ;
+
+adjP -> %adj { 1 } ;
+
+! for when there are missing nouns following
 det -> %det { 1 } ;
 
 ! Resources:

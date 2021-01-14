@@ -106,6 +106,11 @@
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
       <e><p><l>mañana<s n="adv"/></l><r>xudi<s n="n"/></r></p></e>
+      <e><p><l>allá<s n="adv"/></l><r>nuni<s n="adv"/></r></p></e>
+      <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
+
+      <e><p><l>como<s n="cnjadv"/></l><r>ngu<s n="cnjadv"/></r></p></e>
+
       <e><p><l>trabajar<s n="vblex"/></l><r>mpe̱fi<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>cambiar<s n="vblex"/></l><r>mpadi<s n="v"/><s n="iv"/></r></p></e>
 		<e><p><l>introducción<s n="n"/><s n="f"/></l><r>nthintʼantʼofo<s n="n"/></r></p></e>
@@ -119,11 +124,37 @@
 		<e><p><l>salud<s n="n"/><s n="f"/></l><r>nzaki<s n="n"/></r></p></e>
 		<e><p><l>alimiento<s n="n"/><s n="m"/></l><r>nzaki<s n="n"/></r></p></e>
 		<e><p><l>gente<s n="n"/><s n="f"/></l><r>jäʼi<s n="n"/></r></p></e>
+		<e><p><l>mujer<s n="n"/><s n="f"/></l><r>ʼbe̱hñä<s n="n"/></r></p></e>
+		<e><p><l>hijo<s n="n"/><s n="m"/></l><r>tʼu̱<s n="n"/></r></p></e>
+		<e><p><l>hijo<s n="n"/><s n="m"/></l><r>bätsi<s n="n"/></r></p></e>
+		<e><p><l>casa<s n="n"/><s n="f"/></l><r>ngu<s n="n"/></r></p></e>
+		<e><p><l>mano<s n="n"/><s n="m"/></l><r>ʼye̱<s n="n"/></r></p></e>
 		<e><p><l>pueblo<s n="n"/><s n="m"/></l><r>hnini<s n="n"/></r></p></e>
+		<e><p><l>cama<s n="n"/><s n="f"/></l><r>fidi<s n="n"/></r></p></e>
+		<e><p><l>gato<s n="n"/><s n="m"/></l><r>tamxi<s n="n"/></r></p></e>
 		<e><p><l>ciudad<s n="n"/><s n="f"/></l><r>hnini<s n="n"/></r></p></e>
 		<e><p><l>español<s n="n"/><s n="m"/></l><r>ñämfo̱<s n="n"/></r></p></e>
+		<e><p><l>gratitud<s n="n"/><s n="m"/></l><r>njamädi<s n="n"/></r></p></e>
+		<e><p><l>lindero<s n="n"/><s n="m"/></l><r>hyodi<s n="n"/></r></p></e>
+		<e><p><l>límite<s n="n"/><s n="m"/></l><r>hyodi<s n="n"/></r></p></e>
 
 		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
+		<e><p><l>pequeño<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
+		<e><p><l>chico<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
+		<e><p><l>otro<s n="adj"/></l><r>mänʼa<s n="adj"/></r></p></e>
+		<e><p><l>mexica<s n="adj"/><s n="mf"/></l><r>ndeznä<s n="adj"/></r></p></e>
+
+		<e><p><l>de<s n="pr"/></l><r>dega<s n="pr"/></r></p></e>
+		<e><p><l>de<s n="pr"/></l><r>ga<s n="pr"/></r></p></e>
+		<e><p><l>de<s n="pr"/></l><r>de<s n="pr"/></r></p></e>
+		<e><p><l>con<s n="pr"/></l><r>ko<s n="pr"/></r></p></e>
+		<e><p><l>para<s n="pr"/></l><r>pa<s n="pr"/></r></p></e>
+		<e><p><l>en<s n="pr"/></l><r>ha<s n="pr"/></r></p></e>
+		<e><p><l>ante<s n="pr"/></l><r>änte<s n="pr"/></r></p></e>
+		<e><p><l>hasta<s n="pr"/></l><r>asta<s n="pr"/></r></p></e>
+		<e><p><l>desde<s n="pr"/></l><r>desde<s n="pr"/></r></p></e>
+		<e><p><l>sin<s n="pr"/></l><r>nsi<s n="pr"/></r></p></e>
+		<e><p><l>sin<s n="pr"/></l><r>nsinke<s n="pr"/></r></p></e>
 
 		<e><p><l>Yucatán<s n="np"/><s n="loc"/></l><r>Yucatán<s n="np"/><s n="top"/></r></p></e>
 		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/></r></p></e>
@@ -192,14 +223,20 @@
       <e><p><l>decir<s n="vblex"/></l><r>mä<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>negar<s n="vblex"/></l><r>ko̱nti<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>prohibir<s n="vblex"/></l><r>tsunti<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>acabarse<s n="vblex"/></l><r>thege<s n="v"/><s n="iv"/></r></p></e>
+
       <e><p><l>ir<s n="vblex"/></l><r>aux<s n="aux"/><s n="fut"/></r></p></e>
       
 
+		<e><p><l>mi<s n="det"/><s n="pos"/></l><r>mä<s n="det"/><s n="pos"/></r></p></e>
+		<e><p><l>nuestro<s n="det"/><s n="pos"/></l><r>mä<s n="det"/><s n="pos"/></r></p></e>
+		<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>rá<s n="det"/><s n="pos"/></r></p></e>
 		<e><p><l>el<s n="det"/><s n="def"/></l><r>ra<s n="det"/><s n="def"/></r></p></e>
 		<e><p><l>el<s n="det"/><s n="def"/></l><r>ya<s n="det"/><s n="def"/></r></p></e>
 		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼna<b/>ra<s n="det"/><s n="ind"/></r></p></e>
 		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼra<b/>ya<s n="det"/><s n="ind"/></r></p></e>
 		<e><p><l>uno<s n="det"/><s n="ind"/></l><r>ʼna<b/>ya<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>aquel<s n="det"/><s n="dem"/></l><r>nuni<s n="det"/><s n="dem"/></r></p></e>
 		<e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/></l><r>toʼo<s n="prn"/><s n="itg"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
