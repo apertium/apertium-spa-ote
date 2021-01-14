@@ -157,7 +157,9 @@
 		<e><p><l>sin<s n="pr"/></l><r>nsinke<s n="pr"/></r></p></e>
 
 		<e><p><l>Yucatán<s n="np"/><s n="loc"/></l><r>Yucatán<s n="np"/><s n="top"/></r></p></e>
-		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/></r></p></e>
+		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+		<e><p><l>Cuauhtémoc<s n="np"/><s n="ant"/></l><r>Cuauhtémoc<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+		<e><p><l>Motecuhzoma<s n="np"/><s n="ant"/></l><r>Tsʼe̱yʼe̱hmu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 		<e><p><l>saber<s n="vblex"/></l><r>pädi<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>subir<s n="vblex"/></l><r>po̱tsʼe<s n="v"/><s n="iv"/></r></p></e>
