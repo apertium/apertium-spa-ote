@@ -111,6 +111,9 @@
       <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
 
       <e><p><l>como<s n="cnjadv"/></l><r>ngu<s n="cnjadv"/></r></p></e>
+      <e><p><l>que<s n="cnjsub"/></l><r>ge<s n="cnjsub"/></r></p></e>
+      <e><p><l>quien<s n="cnjsub"/></l><r>toʼo<s n="cnjsub"/></r></p></e>
+      <e><p><l>que<s n="cnjsub"/></l><r>nuʼä<s n="cnjsub"/></r></p></e>
 
       <e><p><l>trabajar<s n="vblex"/></l><r>mpe̱fi<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>cambiar<s n="vblex"/></l><r>mpadi<s n="v"/><s n="iv"/></r></p></e>
@@ -142,6 +145,7 @@
 		<e><p><l>hombre<s n="n"/><s n="m"/></l><r>ʼño̱ho̱<s n="n"/></r></p></e>
 		<e><p><l>tiempo<s n="n"/><s n="m"/></l><r>mapa<s n="n"/></r></p></e>
 		<e><p><l>estrella<s n="n"/><s n="f"/></l><r>tso̱<s n="n"/></r></p></e>
+		<e><p><l>dios<s n="n"/><s n="m"/></l><r>ajuä<s n="n"/></r></p></e>
 
 		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
 		<e><p><l>pequeño<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
@@ -167,6 +171,8 @@
 		<e><p><l>Cortés<s n="np"/><s n="ant"/></l><r>Cortés<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 		<e><p><l>Cuauhtémoc<s n="np"/><s n="ant"/></l><r>Cuauhtémoc<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 		<e><p><l>Motecuhzoma<s n="np"/><s n="ant"/></l><r>Tsʼe̱yʼe̱hmu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+		<e><p><l>Tenochtitlán<s n="np"/><s n="loc"/></l><r>Bondo<s n="np"/><s n="top"/></r></p></e>
+		<e><p><l>Jesús<s n="np"/><s n="ant"/></l><r>Jesu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 		<e><p><l>saber<s n="vblex"/></l><r>pädi<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>subir<s n="vblex"/></l><r>po̱tsʼe<s n="v"/><s n="iv"/></r></p></e>
