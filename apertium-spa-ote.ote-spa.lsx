@@ -43,6 +43,10 @@
 		<e lm="aux" c="aux normalisation">
 			<p>
 				<l><w/></l>
+				<r></r>
+		  </p>
+		  <p>
+		    <l></l>
 				<r>aux</r>
 			</p>
 			<i><s n="aux"/><t/><j/></i>
