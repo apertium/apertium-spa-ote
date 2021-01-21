@@ -5,10 +5,11 @@
     Add your own rules within <rule> here, using the resources below as a guide
   -->
 
-  <rule>
-    <match lemma="wind"/>
-    <match lemma="power" tags="n.*">
-      <select lemma="energía" tags="n.*"/>
+  <rule weight="1.2">
+    <!-- Mäka Ndähi = Espíritu Santo -->
+    <match lemma="mäka"/>
+    <match lemma="ndähi" tags="n">
+      <select lemma="espíritu" tags="n.*"/>
     </match>
   </rule>
 </rules>

@@ -51,6 +51,7 @@
     <sdef n="m"               c="Masculine"/>
     <sdef n="mf"              c="Masculine or feminine"/>
     <sdef n="un"              c="No gender"/>
+    <sdef n="an"              c="Animate"/>
 
     <sdef n="sg"              c="Singular"/>
     <sdef n="du"              c="Dual"/>
@@ -69,6 +70,7 @@
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
+    <sdef n="rel"             c="Relative conjunction or something"/>
 
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
@@ -78,6 +80,8 @@
     <sdef n="pprs"            c="Present participle"/>
     <sdef n="pasv"            c="Passive"/>
     <sdef n="actv"            c="Active voice"/>
+    
+	 <sdef n="pri"             c="Present"/>
 
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
     <sdef n="pst"             c="Positive"/>
@@ -118,13 +122,19 @@
       <e><p><l>luego<s n="adv"/></l><r>ʼnepu̱<s n="adv"/></r></p></e>
       <e><p><l>después<s n="adv"/></l><r>ʼnepu̱<s n="adv"/></r></p></e>
       <e><p><l>también<s n="adv"/></l><r>nehe<s n="adv"/></r></p></e>
+      <e><p><l>entonces<s n="adv"/></l><r>nuʼbu̱<s n="adv"/></r></p></e>
       <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
+      <e><p><l>parecer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></l><r>ʼñenä<s n="adv"/></r></p></e>
       <e r="RL"><p><l></l><r>xi<s n="adv"/></r></p></e>
 
       <e><p><l>como<s n="cnjadv"/></l><r>ngu<s n="cnjadv"/></r></p></e>
       <e><p><l>que<s n="cnjsub"/></l><r>ge<s n="cnjsub"/></r></p></e>
       <e><p><l>quien<s n="cnjsub"/></l><r>toʼo<s n="cnjsub"/></r></p></e>
       <e><p><l>que<s n="cnjsub"/></l><r>nuʼä<s n="cnjsub"/></r></p></e>
+      <e><p><l>cuando<s n="cnjsub"/></l><r>nuʼbu̱<s n="cnjsub"/></r></p></e>
+      <e><p><l>si<s n="cnjsub"/></l><r>nuʼbu̱<s n="cnjsub"/></r></p></e>
+      
+		<e><p><l>y<s n="cnjcoo"/></l><r>y<s n="cnjcoo"/></r></p></e>
 
       <e><p><l>trabajar<s n="vblex"/></l><r>mpe̱fi<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>cambiar<s n="vblex"/></l><r>mpadi<s n="v"/><s n="iv"/></r></p></e>
@@ -161,11 +171,19 @@
 		<e><p><l>hoja<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
 		<e><p><l>cáscara<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
 		<e><p><l>pluma<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
+		<e><p><l>bebé<s n="n"/><s n="m"/></l><r>ʼue̱ne<s n="n"/></r></p></e>
+		<e><p><l>niño<s n="n"/><s n="m"/></l><r>bähtsí<s n="n"/></r></p></e>
+		<e><p><l>perro<s n="n"/><s n="m"/></l><r>ʼyo<s n="n"/></r></p></e>
+		<e><p><l>sobrino<s n="n"/><s n="m"/></l><r>bʼe̱datsi<s n="n"/></r></p></e>
+		<e><p><l>espíritu<s n="n"/><s n="m"/></l><r>ndähi<s n="n"/></r></p></e>
+		<e><p><l>aire<s n="n"/><s n="m"/></l><r>ndähi<s n="n"/></r></p></e>
+		<e><p><l>atmosfera<s n="n"/><s n="m"/></l><r>ndähi<s n="n"/></r></p></e>
 
 		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
 		<e><p><l>pequeño<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
 		<e><p><l>chico<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
 		<e><p><l>otro<s n="adj"/></l><r>mänʼa<s n="adj"/></r></p></e>
+		<e><p><l>santo<s n="adj"/></l><r>mäka<s n="adj"/></r></p></e>
 		<e><p><l>mexica<s n="adj"/><s n="mf"/></l><r>ndeznä<s n="adj"/></r></p></e>
 
 		<e><p><l>de<s n="pr"/></l><r>dega<s n="pr"/></r></p></e>
@@ -256,6 +274,7 @@
       <e><p><l>tocar<s n="vblex"/></l><r>toca<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>vender<s n="vblex"/></l><r>pa<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>convenir<s n="vblex"/></l><r>epi<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>venir<s n="vblex"/></l><r>ehe<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>decir<s n="vblex"/></l><r>xipi<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>querer<s n="vblex"/></l><r>ne<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>desear<s n="vblex"/></l><r>ne<s n="v"/><s n="tv"/></r></p></e>
@@ -274,11 +293,17 @@
       <e><p><l>encontrar<s n="vblex"/></l><r>tsu̱di<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>flechar<s n="vblex"/></l><r>tsu̱di<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>replegarse<s n="vblex"/></l><r>bʼe̱nga<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>llorar<s n="vblex"/></l><r>zoni<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>hablar<s n="vblex"/></l><r>ñá<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>haber<s n="vblex"/></l><r>ʼbu̱i<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>vivir<s n="vblex"/></l><r>ʼbu̱i<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>radicar<s n="vblex"/></l><r>ʼbu̱i<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>estar<s n="vblex"/></l><r>ʼbu̱i<s n="v"/><s n="iv"/></r></p></e>
 
       <e><p><l>ir<s n="vblex"/></l><r>aux<s n="aux"/><s n="fut"/></r></p></e>
       
 
-		<e><p><l>mi<s n="det"/><s n="pos"/></l><r>mä<s n="det"/><s n="pos"/></r></p></e>
+		<e><p><l>mío<s n="det"/><s n="pos"/></l><r>mä<s n="det"/><s n="pos"/></r></p></e>
 		<e><p><l>nuestro<s n="det"/><s n="pos"/></l><r>mä<s n="det"/><s n="pos"/></r></p></e>
 		<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>rá<s n="det"/><s n="pos"/></r></p></e>
 		<e><p><l>suyo<s n="det"/><s n="pos"/></l><r>yá<s n="det"/><s n="pos"/></r></p></e>
@@ -293,6 +318,11 @@
       <e><p><l>todo<s n="predet"/></l><r>gatho<s n="det"/><s n="qnt"/></r></p></e>
       <e><p><l>todo<s n="predet"/></l><r>gaʼtho<s n="det"/><s n="qnt"/></r></p></e>
 		<e><p><l>quién<s n="prn"/><s n="itg"/><s n="mf"/></l><r>toʼo<s n="prn"/><s n="itg"/></r></p></e>
+		<e><p><l>qué<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></l><r>te<s n="prn"/><s n="itg"/></r></p></e>
+		<e><p><l>lo<b/>que<s n="rel"/><s n="an"/><s n="nt"/></l><r>te<s n="prn"/><s n="itg"/></r></p></e>
+
+
+      <e><p><l>oh<s n="ij"/></l><r>oh<s n="ij"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
