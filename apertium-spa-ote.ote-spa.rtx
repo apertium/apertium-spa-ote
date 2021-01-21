@@ -6,7 +6,8 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 person = (PD p3) p1 p2 p3 ;
 det_type = def ind dem itg pos ;
-tense = pret pres past fut ifi pri fti pii copret;
+tense = pret pres past fut ifi pri fti pii copret perf impf;
+nonfin = pp;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -25,8 +26,14 @@ nP: _.gender.number;
 adjP: _.gender.number;
 
 vP: _.tense.person.number;
-v: <vblex>.tense.person.number;
+
 aux: _.tense.person.number;
+
+!v: <vblex>.tense.person.number;
+v_fin: <vblex>.tense.person.number;
+v_nonfin: <vblex>.nonfin.gender.number;
+
+vbhaver: _.tense.person.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -46,6 +53,11 @@ det: (if (1.det_type = def or 1.det_type = ind)
          1(det_pos)
       else
          1(det_default));
+
+v: (if (1.tense in tense)
+			1(v_fin)
+		else
+			1(v_nonfin));
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -67,7 +79,7 @@ det -> %det { 1 } ;
 predet -> %predet { 1 } ;
 
 vP -> aux.$person.$number.$tense v.$lemh
-		(if (2.tense = pret) { %2[tense=ifi] }
+		(if (1.tense = perf) { haber@vbhaver[tense=pri,person=1.person,number=1.number] _ 2[nonfin=pp] }
 			else { %2[tense=1.tense] }
 		);
 
