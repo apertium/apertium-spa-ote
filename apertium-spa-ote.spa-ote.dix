@@ -108,7 +108,18 @@
       <!-- Define entries within <e> here. -->
       <e><p><l>mañana<s n="adv"/></l><r>xudi<s n="n"/></r></p></e>
       <e><p><l>allá<s n="adv"/></l><r>nuni<s n="adv"/></r></p></e>
+      <e><p><l>allí<s n="adv"/></l><r>gepu̱<s n="adv"/></r></p></e>
+      <e><p><l>ahí<s n="adv"/></l><r>gepu̱<s n="adv"/></r></p></e>
+      <e><p><l>cerca<s n="adv"/></l><r>getbu̱<s n="adv"/></r></p></e>
+      <e><p><l>donde<s n="adv"/></l><r>habu̱<s n="adv"/></r></p></e>
+      <e><p><l>adonde<s n="adv"/></l><r>habu̱<s n="adv"/></r></p></e>
+      <e><p><l>así<s n="adv"/></l><r>njabu̱<s n="adv"/></r></p></e>
+      <e><p><l>entonces<s n="adv"/></l><r>geʼbu̱<s n="adv"/></r></p></e>
+      <e><p><l>luego<s n="adv"/></l><r>ʼnepu̱<s n="adv"/></r></p></e>
+      <e><p><l>después<s n="adv"/></l><r>ʼnepu̱<s n="adv"/></r></p></e>
+      <e><p><l>también<s n="adv"/></l><r>nehe<s n="adv"/></r></p></e>
       <e><p><l>ya<s n="adv"/></l><r>ya<s n="adv"/></r></p></e>
+      <e r="RL"><p><l></l><r>xi<s n="adv"/></r></p></e>
 
       <e><p><l>como<s n="cnjadv"/></l><r>ngu<s n="cnjadv"/></r></p></e>
       <e><p><l>que<s n="cnjsub"/></l><r>ge<s n="cnjsub"/></r></p></e>
@@ -146,6 +157,10 @@
 		<e><p><l>tiempo<s n="n"/><s n="m"/></l><r>mapa<s n="n"/></r></p></e>
 		<e><p><l>estrella<s n="n"/><s n="f"/></l><r>tso̱<s n="n"/></r></p></e>
 		<e><p><l>dios<s n="n"/><s n="m"/></l><r>ajuä<s n="n"/></r></p></e>
+		<e><p><l>pelo<s n="n"/><s n="m"/></l><r>xi<s n="n"/></r></p></e>
+		<e><p><l>hoja<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
+		<e><p><l>cáscara<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
+		<e><p><l>pluma<s n="n"/><s n="f"/></l><r>xi<s n="n"/></r></p></e>
 
 		<e><p><l>grande<s n="adj"/></l><r>dänga<s n="adj"/></r></p></e>
 		<e><p><l>pequeño<s n="adj"/></l><r>tʼu̱ki<s n="adj"/></r></p></e>
